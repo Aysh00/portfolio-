@@ -1,139 +1,174 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Project one</title>
-    <style type="text/css">
-    body{
-      margin:0;
-    }
-    nav{
-      background: #000000;
-      width: 100%;
-      height: 60px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  nav section{
-      margin: 0 35px;
-      color: white;
-    }
-    .hero{
-background:#2e2e2e;
-width: 100%;
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-    }
-    .hero img{
-      width:250px;
-      height: 250px;
-      border-radius: 50%;
-    }
-.hero p{
-  color: white;
-  width:200px;
-  height: 200px;
-  font-size: 20px;
-}
-.container{
-  margin: 4em 12em;
-  text-align: center;
-}
-.skills{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-}
-.skill{
-  width: 200px;
-  text-align: center;
-  margin: 10px;
-  padding: 10px 20px;
-  background: #f1f1f1;
-  border-radius: 10px;
-}
-   /*.container.others{
-  background: #2e2e2e;
-
-}*/
-  footer{
-    width: 100%;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    background: #2e2e2e;
-    margin: 15px 0;
-  }
-     footer > section{
-      width: 50%;
-     }
-     input, textarea{
-      width: 100%;
-      padding: 10px;
-      margin-bottom:5px ;
-      font-size: 15px;
-      border-radius: 5px;
-      background: #f9f9f9;
-      color: #2e2e2e;
-      margin: 15px 0;
-     }
-
-  </style>
+<html lang="en">
+<head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-  <body>
-    <nav style="background: grey;">
-      <section><b>Aisha</b></section>
-      <section>||</section>
-      <section>Who</section>
-</nav>
-<main>
-<header class= "hero">
-<img src = "IMG_4080_53_54_Pro.jpg">
-<p>Hello! its Aisha<br> A frontend Developer.</p>
-</header>
-<section class= "container">
-<h1>WHO</h1>
-<p> My name is Aisha Muhammad Maaruf, i'm schooling at Kasuna State University(KASU) i'm a student of Computer Science department. I have the passion of becoming a programmer, not only to become a frontend developer but also a backend developer. I want it to be in a way that if i'm being consulted about a particular problem , even if i'm not able to solve it accqurately, i should be able to do something about it.</p>
-</section>
+<body>
+    <nav>
+    	<section class="logo">XYZ CHEF</section>
+    	<section class="social-icon">
+    		<ul>
+    			<li><a href="https://facebook.com"><img src ="images/facebook.svg"></a></li>
+    			<li><a href="https://twitter.com"><img src="images/twitter.svg"></a></li>
+    			<li><a href="https://instagram.com"><img src="images/instagram.svg"></a></li>
+    		</ul>
+    	</section>
+    </nav>
+    <header class="hero">
+    	<section>
+    		<h1>We help to achieve<br>your goals.</h1>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    	</section>
+    	<img src="images/chef.png" class="my images">
+    </header>
+    <main>
+    	<section class="container services-con">
+    		<h2> Services that we can help you with</h2>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    		<section class="services">
+    			<section class="service">
+    				<img src="images/001.png" alt="" srcset="">
+    				<h3>Service 1 </h3>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    	</section>
+    	<section class="service">
+    				<img src="images/002.png" alt="" srcset="">
+    				<h3>Services 2 </h3>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    	</section>
+    	<section class="service">
+    				<img src="images/003.png" alt="" srcset="">
+    				<h3>Services 3 </h3>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    	</section>
+    	<section class="service">
+    				<img src="images/004.png" alt="" srcset="">
+    				<h3>Services 4 </h3>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    	</section>
+    	<section class="service">
+    				<img src="images/005.png" alt="" srcset="">
+    				<h3>Services 5</h3>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    	</section>
+        <section class="service">
+                    <img src="images/006.png" alt="" srcset="">
+                    <h3>Services 6</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+    
+    	<section class="container work-con">
+            <h2>Some of our finest work</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <section class="works">
+                <section class="work">
+                    <img src="images/portfolio-item1.jpg" alt="" srcset="">
+                </section>
+                 <section class="work">
+                    <img src="images/portfolio-item2.jpg" alt="" srcset="">
+                </section>
+                 <section class="work">
+                    <img src="images/portfolio-item3.jpg" alt="" srcset="">
+                </section>
+                 <section class="work">
+                    <img src="images/portfolio-item4.jpg" alt="" srcset="">
+                </section>
+                 <section class="work">
+                    <img src="images/portfolio-item5.jpg" alt="" srcset="">
+                </section>
+                 <section class="work">
+                    <img src="images/portfolio-item6.jpg" alt="" srcset="">
+                </section>
+    	</section>
+    </main>
+    <footer class="info">
+        <section>
+            <h2>XYZ CHEF</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <section class="social-icon">
+            <ul>
+                <li><a href="https://facebook.com"><img src ="images/facebook.svg"></a></li>
+                <li><a href="https://twitter.com"><img src="images/twitter.svg"></a></li>
+                <li><a href="https://instagram.com"><img src="images/instagram.svg"></a></li>
+            </ul>
+        </section>
+        
 
-<section class= "container other">
-<h1>SKILLS</h1>
-<p> If you are a software developer, there are technical skills you need to acquire to become a good programmer.Technology is wide and they are many tools, languages improvised in the market.It doesn't matter if you are an expert in programming or a newbie programmer. As a modern developer you should have knowledge that how to integrate the modern technologies and other technical stuffs in your work to ame a good product or software.</p>
-<section class="skills">
-  <section class="skill">
-    <h2>HTML</h2>
-  </section>
-  <section class="skill">
-    <h2>CSS</h2>
-  </section>
-    <section class="skill">
-      <h2>JAVASCRIPT</h2>
-    </section>
-</section>
-</section>
+            </section>
+            <section>
+                <h2> Services</h2>
+                <hr>
+                <p>Service 1</p>
+                <p>Service 2</p>
+                <p>Service 3</p>
+                <p>Service 4</p>
+                <p>Service 5</p>
+                <p>Service 6</p>
+            </section>
+            <section> 
+                <h2>Contact Us</h2>
+                <hr>
+                <p>Line 22, frontend street. Source State</p>
+                <a href="tel:2349034672255"
+                class="call">click to call 09034672255</a>
+            </section>
+        <section class="copy">&copy; 2022 Aisha Design</section>
+        </section>
 
-<section class= "container ">
-<h1>PROJECT</h1>
-<p> CSS,
-HTML</p>
-</section>
-</main>
-<footer>
-  <section>
-  <h1 style="color: white; text-align: center;">CONTACT ME</h1>
-  <form>
-    <input type="text" name="" placeholder="Enter full name">
-    <input type="text" name="" placeholder="name@example.com">
-    <textarea cols="30" rows="5">
-    </textarea>
-     <input type="button" value="submit">
-  </form>
-</section>
-</footer>
-  </body>
+    </footer>
+</body>
 </html>
